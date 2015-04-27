@@ -1,137 +1,101 @@
 var bingoList = [];
 bingoList[1] = [
- { name: "No saving", types: ["save"] },
+ { name: "Open red vault in Mafia Town", types: ["vault"] },
+ { name: "Get Mustache girl to say “See you around!” in Act 1-1 ", types: ["story"] }
 ];
 bingoList[2] = [
- { name: "Kill a knight", types: ["future"] },
+ { name: "Talk to Mafia at Fruit Bar", types: ["talk"] },
+ { name: "Find an explorer Badge", types: ["find"] }
 ];
 bingoList[3] = [
- { name: "Touch a cloud", types: ["air"] },
- { name: "Kill a zombie/mummy", types: ["ghost"] },
- { name: "Complete an autoscroll section", types: ["level"] },
- { name: "Complete a prologue/tutorial", types: ["cutscene"] }
+ { name: "Get 1 energy juice", types: ["get"] },
+ { name: "Get 1 revival candy", types: ["get"] },
 ];
 bingoList[4] = [
- { name: "Collect 100 yellow/golden items", types: ["money"] },
- { name: "Obtain a card", types: ["obtain"] },
- { name: "Drain an enemy bar", types: ["boss"] },
- { name: "Complete a bonus/special stage", types: ["level"] }
+ { name: "Get 1 revival candy and 1 energy juice", types: ["get"] },
+ { name: "Get the camera and take a selfie", types: ["camera"] }
 ];
 bingoList[5] = [
- { name: "Kill a spider", types: ["bug"] },
- { name: "Obtain a fruit", types: ["shop"] },
- { name: "Level up to 4", types: ["hp"] },
- { name: "Enter a forest/jungle", types: ["weapon","area"] }
+ { name: "Get the camera and take a selfie with vanessa", types: ["camera"] },
+ { name: "Get the camera and take a selfie with mafia boss", types: ["camera"] }
 ];
 bingoList[6] = [
- { name: "Enter a castle", types: ["castle","area"] },
- { name: "Enter a desert", types: ["fire","area"] },
- { name: "Talk to a King or Princess", types: ["castle"] },
- { name: "Talk to a scientist", types: ["sci"] },
- { name: "New character/partner", types: ["char"] }
+ { name: "Get the camera and take a selfie with a Mafia", types: ["camera"] },
+ { name: "Get the camera and take a selfie with Mustache Girl", types: ["camera"] }
 ];
 bingoList[7] = [
- { name: "Enter a snowy/icy area", types: ["snow", "ice","area"] },
- { name: "Ride an animal", types: ["vehicle"] },
- { name: "New vehicle", types: ["vehicle"] },
- { name: "Heal an ally", types: ["heal"] }
+ { name: "Get the camera and take a selfie with Thor", types: ["camera"] },
+ { name: "Open blue vault in Mafia Town", types: ["vault"] }
 ];
 bingoList[8] = [
- { name: "Restore air with a bubble", types: ["water"] },
- { name: "Weapon upgrade", types: ["weapon"] },
- { name: "Win a race", types: ["race"] },
- { name: "Enter an inn/hotel", types: ["castle","area"] }
+ { name: "Open green vault in Mafia Town", types: ["vault"] },
+ { name: "Find and speak to the milkman", types: ["find"] }
 ];
 bingoList[9] = [
- { name: "Use a key", types: ["boss"] },
- { name: "Escape from prison", types: ["guard"] },
- { name: "Destroy an enemy vehicle", types: ["vehicle"] },
- { name: "Enter strong wind currents", types: ["wind"] }
+ { name: "Get into mafia HQ on any act except act 4", types: ["think"] },
+ { name: "Get 10 BP", types: ["collect"] }
 ];
 bingoList[10] = [
- { name: "Obtain an explosive", types: ["weapon"] },
- { name: "Enter a volcano", types: ["fire","area"] },
- { name: "Don't shoot", types: ["save","ability","weapon"] },
- { name: "Armor/Defense upgrade", types: ["hp"] }
+ { name: "Get to the credits", types: ["story"] },
+ { name: "Kill 5 Mafia", types: ["kill","find"] }
 ];
 bingoList[11] = [
- { name: "Learn an ability involving magic", types: ["ability"] },
- { name: "Obtain a hammer", types: ["weapon"] },
- { name: "Beat a boss", types: ["boss"] },
- { name: "Play an instrument/song", types: ["ability"] }
+ { name: "Kill 5 Birds", types: ["kill","find"] },
+ { name: "Kill a Janitor", types: ["kill"] }
 ];
 bingoList[12] = [
- { name: "Boots/shoes upgrade", types: ["clothes"] },
- { name: "Enter outer space", types: ["area"] },
- { name: "Ride an electric elevator", types: ["vehicle"] }
+ { name: "Hookshot to an Island w/ a Chest & A Cannon on it", types: ["find"] },
+ { name: "Beat the Cat Race without any badges", types: ["skill"] }
 ];
 bingoList[13] = [
- { name: "Catch a thief/criminal", types: ["guard"] },
- { name: "Read a book", types: ["lerning"] },
- { name: "Learn an ability involving water", types: ["ability","water"] }
+ { name: "Get Thor’s Cap", types: ["find"] },
+ { name: "Complete Subcon Caves Act 2 without using the Hookshot", types: ["think","skill"] }
 ];
 bingoList[14] = [
- { name: "Ammo upgrade", types: ["weapon"] },
- { name: "100k points", types: ["level"] },
- { name: "Learn a password", types: ["guard"] }
+ { name: "Use 4 Cannons (out of the 5)", types: ["find"] },
+ { name: "Complete Mafia Town Shop Secret", types: ["find","skill"] }
 ];
 bingoList[15] = [
- { name: "Increase max health", types: ["hp"] },
- { name: "Kill a floating hand", types: ["ghost"] },
- { name: "Obtain an area map", types: ["boss"] },
- { name: "Complete a stealth section", types: ["guard"] }
- ];
+ { name: "Complete Mafia Town Pipe Secret", types: ["find","skill"] },
+ { name: "Collect All Hats", types: ["find"] }
+];
 bingoList[16] = [
- { name: "Learn an ability involving fire", types: ["ability"] },
- { name: "Ride a snowboard", types: ["ice"] },
- { name: "Complete a rollercoaster/minecart ride", types: ["area"] },
- { name: "Rescue an NPC", types: ["save"] }
+ { name: "Get 2 golden mafia ties", types: ["find"] },
+ { name: "Collect the gold tie in the tiny chest", types: ["find"] }
 ];
 bingoList[17] = [
- { name: "Ride a boat/raft", types: ["vehicle"] },
- { name: "Defeat an insect boss", types: ["boss","bug"] },
- { name: "Kill a ghost", types: ["ghost"] },
- { name: "Kill a King", types: ["castle"] }
+ { name: "Draw a moustache and monocle in Trainwreck", types: ["story"] },
+ { name: "Complete Trainwreck while collecting every clock", types: ["story","skill"] }
 ];
 bingoList[18] = [
- { name: "Complete a world", types: ["boss"] },
- { name: "Learn how to shrink", types: ["ability"] },
- { name: "Stun an enemy", types: ["ability"] }
+ { name: "Kill robot beneath underground market", types: ["kill","find"] },
+ { name: "Speak to 10 different Mafia members", types: ["find"] }
 ];
 bingoList[19] = [
- { name: "Put on a disguise", types: ["guard"] },
- { name: "Kill a shapeshifter", types: ["ghost"] },
- { name: "Defeat your rival/dark-side", types: ["cutscene"] },
- { name: "Glitch out of bounds", types: ["glitch"] }
+ { name: "Help 2 old men from Mafia gangs", types: ["find","kill"] },
+ { name: "Get the Witch Hat", types: ["find"] }
 ];
 bingoList[20] = [
- { name: "Ride a train", types: ["vehicle"] },
- { name: "Obtain ability to warp", types: ["ability"] },
- { name: "Learn how to dig", types: ["ability"] },
- { name: "Transform into an animal", types: ["ability"] }
+ { name: "Find and read 3 letters in Vanessa’s Mansion", types: ["find"] },
+ { name: "Travel to Mustache Girl Island and back", types: ["think"] }
 ];
 bingoList[21] = [
- { name: "Manipulate time", types: ["puzzle"] },
- { name: "Change the water level", types: ["water"] },
- { name: "Turn invisible", types: ["ability"] }
+ { name: "Obtain Giant Orb on distant island", types: ["think","find"] },
+ { name: "Obtain Ancient Tablet", types: ["find"] }
 ];
 bingoList[22] = [
- { name: "Flip gravity", types: ["puzzle"] },
- { name: "Kill a vampire", types: ["ghost","boss"] },
- { name: "Defeat three bosses", types: ["boss"] }
+ { name: "Complete Subcon Caves Secret", types: ["find","skill"] },
+ { name: "Complete Vanessa’s Manor Secret", types: ["find","skill"] }
 ];
 bingoList[23] = [
- { name: "Obtain the ability to walk underwater", types: ["ability"] },
- { name: "Turn the lights on", types: ["puzzle"] }
+ { name: "Collect 200 orbs", types: ["collect"] },
+ { name: "Collect 300 orbs", types: ["collect"] }
 ];
 bingoList[24] = [
- { name: "Defeat an enemy dragon", types: ["boss"] },
- { name: "Pass through a fake wall/floor", types: ["ghost"] },
- { name: "No jumping", types: ["boss","save","air","ability"] }
+ { name: "Collect and Unlock the Snatcher Badge", types: ["collect"] },
+ { name: "Talk to the Tourist", types: ["find"] }
 ];
 bingoList[25] = [
-  { name: "Win a tournament", types: ["water"] },
-  { name: "Beat a game", types: ["boss"] }
+ { name: "Defeat the Beta Hero’s Challenge", types: ["story"] },
 ];
-
 $(function() { srl.bingo(bingoList, 5); });

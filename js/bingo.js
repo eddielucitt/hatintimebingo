@@ -14,12 +14,12 @@ var bingo = function(bingoList, size) {
 	if (LANG == '') LANG = 'name';
 	var SEED = gup( 'seed' );
 	var MODE = gup( 'mode' );
-	
+
 	if(SEED == "") return reseedPage(MODE);
-		
+
 	var cardtype = "string";
 
-	if (MODE == "short") { cardtype = "Short"; } 
+	if (MODE == "short") { cardtype = "Short"; }
 	else if (MODE == "long") { cardtype = "Long"; }
 	else { cardtype = "Normal";	}
 
@@ -28,7 +28,7 @@ var bingo = function(bingoList, size) {
 	Math.seedrandom(SEED); //sets up the RNG
 	var MAX_SEED = 999999; //1 million cards
 	var results = $("#results");
-	results.append ("<p>SRT Bingo <strong>v1</strong>&emsp;Seed: <strong>" + 
+	results.append ("<p>SRT Bingo <strong>v1</strong>&emsp;Seed: <strong>" +
 	SEED + "</strong>&emsp;Card type: <strong>" + cardtype + "</strong></p>");
 
 	var lineCheckList = [];
@@ -76,9 +76,9 @@ var bingo = function(bingoList, size) {
 		  items.push( encodeURIComponent($(cells[i]).html()) );
 		}
 		if (mode == 'simple-stream') {
-		  window.open('/bingo/bingo-popout-basic.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
+		  window.open('bingo-popout-basic.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=420, height=180"); }
 		else {
-		  window.open('/bingo/bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
+		  window.open('bingo-popout.html#'+ name +'='+ items.join(';;;'),"_blank","toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=220, height=460"); }
 	});
 
 	$("#bingo tr td:not(.popout), #selected td").toggle(
@@ -121,7 +121,7 @@ var bingo = function(bingoList, size) {
 		var Rem2 = Rem8%2;
 		var Rem5 = Num3%5;
 		var Rem3 = Num3%3;	// Note that Rem2, Rem3, Rem4, and Rem5 are mathematically independent.
-		var RemT = Math.floor(Num3/120);	// This is between 0 and 8		
+		var RemT = Math.floor(Num3/120);	// This is between 0 and 8
 
 		// The idea is to begin with an array containing a single number, 0.
 		// Each number 1 through 4 is added in a random spot in the array's current size.
@@ -220,7 +220,7 @@ var bingo = function(bingoList, size) {
 	  //$('#slot'+i).append("<br/>" + bingoBoard[i].types.toString());
 	  //$('#slot'+i).append("<br/>" + bingoBoard[i].synergy);
 	}
-	
+
 	return true;
 } // setup
 
@@ -231,5 +231,5 @@ function reseedPage(mode) {
 	return false;
 }
 
-// Backwards Compatability 
+// Backwards Compatability
 var srl = { bingo:bingo }
